@@ -12,7 +12,7 @@ jQuery.extend({
 		return vars;
 	},
 	getQueryParam: function(name) {
-		return jQuery.getQueryParams()[name];
+		return this.getQueryParams()[name];
 	}
 });
 
